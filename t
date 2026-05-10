@@ -16,7 +16,7 @@ end)
  end
 
 local function s3() 
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/renardofficiel/game/refs/heads/main/MurderMystery2/main.lua", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatSick/HoneyLua/refs/heads/main/Loader.luau"))()
 end 
 
 local function s4() 
